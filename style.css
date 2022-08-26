@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin: 15px 30px;
+    padding: 10px;
+   
+    
+}
+h2{
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+    color: #FFFF;
+    background-color: rgb(34, 39, 39);
+    margin: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+}
+
+
+.secondname{
+    position: relative;
+    bottom: 84.1px;
+   left: 220px;
+
+    
+}
+p{
+    text-align: left;
+    color: rgb(69, 85, 96);
+}
+div.main{
+    width: 450px;
+    margin: 100px auto 0px auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    height: 750px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 50px;
+    border:1px solid#ccc;
+    box-shadow: 1px 3px 8px ;
+    display: block;
+    justify-content: center;
+    
+   
+   
+
+}
+.email{
+    position: relative;
+    bottom: 75px;
+}
+.phone{
+    position:relative;
+    left: 220px;
+    bottom: 160px;
+}
+.pas{
+    position: relative;
+    
+    bottom: 145px;
+}
+.adress{
+    position: relative;
+    bottom: 150px;
+    
+}
+.finalpas{
+    position: relative;
+    left: 220px;
+    bottom: 229.5px;
+
+}
+input#firstname,#lastname,#email,#Phone,#pasword,#comfirmps,#button{
+    padding: 8px;
+    border-radius: 5px;
+    border:1px solid#ccc;
+    
+}
+input[ type="submit"] {
+    background-color: rgb(34, 39, 39);
+    padding: 8px;
+    border-radius: 5px;
+    width: 225px;
+    position: relative;
+    left: 40px;
+    bottom: 225px;
+    margin: 50px;
+    border:1px solid#ccc;
+    color: #FFFF;
+    cursor: pointer;
+    
+}
+input[ type="submit"]:hover{
+    background-color: rgb(17, 18, 18);
+}
+
+textarea{
+    border:1px solid#ccc;
+}
+@media(max-width:600px) {
+    {
+        justify-content: center;
+    }
+    
+}
+
+
+
